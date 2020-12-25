@@ -1,6 +1,7 @@
 def square_array(array)
-  array.length.times do |i|
-    array[i] = array[i] * array[in]
+  counter = 0
+  while counter < array.length do
+    array[counter] = Math.sqrt(array[counter])
   end
   array
 end
